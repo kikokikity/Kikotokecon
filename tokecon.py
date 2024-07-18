@@ -68,7 +68,7 @@ while running:
     screen.blit(background_image, (0, 0))
 
     # Draw title
-    draw_text("Your Game Title", title_font, pygame.Color('white'), pygame.Color('black'), screen, SCREEN_WIDTH // 2, 100)
+    draw_text("Tokecon v 0.01alpha", title_font, pygame.Color('white'), pygame.Color('black'), screen, SCREEN_WIDTH // 2, 100)
 
     # Draw menu options
     for i, option in enumerate(menu_options):
